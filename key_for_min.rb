@@ -6,11 +6,11 @@ def key_for_min_value(hash)
   array_of_values.select do |value|
     if value.index == 0
       value = a
-    elsif value < a 
+    elsif value < a
       value = a
     elsif value > a
       a
     end
   end
-  
+
 end
