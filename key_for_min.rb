@@ -2,9 +2,9 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(hash)
+  v= nil
+  k= nil
   hash.select do |key, value|
-    v= nil
-    k= nil
     if v == nil
       v = value
       k = key
